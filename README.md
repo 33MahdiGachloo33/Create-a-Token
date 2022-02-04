@@ -1,2 +1,2 @@
-# Create-a-Token
+# Sample
 How to simply create a token
