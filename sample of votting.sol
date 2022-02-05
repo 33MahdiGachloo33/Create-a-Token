@@ -61,7 +61,7 @@ contract Votting{
 
     function VottingCandida(string memory name, uint8 CandidaID) public {
         require(fazes == FAZ.Start,"Only Start Faz...");
-        require(VotterINFO[msg.sender].Vote == false,"only one Can Votted...");
+        require(VotterINFO[msg.sender].Vote == false,"only one time Can Vote...");
         VotterINFO[msg.sender] = Votter(name,true,CandidaID);
         candida[CandidaID].CountVote++;
     }
