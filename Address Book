@@ -1,4 +1,5 @@
 pragma solidity 0.5.10;
+//Below is a address book Solidity smart contract. It allows one to save a list of Ethereum account address’s to the blockchain with an alias name.
 
 contract AddressBook {
 
